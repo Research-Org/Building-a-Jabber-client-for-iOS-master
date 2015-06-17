@@ -156,6 +156,8 @@
 		6E068AD51B188F000075E7D6 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E068A431B188F000075E7D6 /* DDXMLNode.m */; };
 		6E068AD61B188F000075E7D6 /* build-libidn.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6E068A471B188F000075E7D6 /* build-libidn.sh */; };
 		6E068AD71B188F000075E7D6 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E068A491B188F000075E7D6 /* libidn.a */; };
+		6EEC8A081B31A33C0066AC28 /* shankar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEC8A061B31A33C0066AC28 /* shankar.m */; };
+		6EEC8A091B31A33C0066AC28 /* shankar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EEC8A071B31A33C0066AC28 /* shankar.xib */; };
 		BD0D115E141E5AEE00DF3892 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0D115D141E5AEE00DF3892 /* NSString+Utils.m */; };
 		BD2179311418AF2700AA58F8 /* SMMessageViewTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2179301418AF2700AA58F8 /* SMMessageViewTableCell.m */; };
 		BD2179361418AFA100AA58F8 /* aqua.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2179341418AFA100AA58F8 /* aqua.png */; };
@@ -478,6 +480,9 @@
 		6E068A491B188F000075E7D6 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
 		6E068A4A1B188F000075E7D6 /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
 		6E068AD81B1891900075E7D6 /* XMPPFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPPFramework.h; sourceTree = "<group>"; };
+		6EEC8A051B31A33C0066AC28 /* shankar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shankar.h; sourceTree = "<group>"; };
+		6EEC8A061B31A33C0066AC28 /* shankar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shankar.m; sourceTree = "<group>"; };
+		6EEC8A071B31A33C0066AC28 /* shankar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = shankar.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* JabberClient-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JabberClient-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		BD0D115C141E5AEE00DF3892 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
 		BD0D115D141E5AEE00DF3892 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
@@ -543,6 +548,9 @@
 				BD2179301418AF2700AA58F8 /* SMMessageViewTableCell.m */,
 				BD0D115C141E5AEE00DF3892 /* NSString+Utils.h */,
 				BD0D115D141E5AEE00DF3892 /* NSString+Utils.m */,
+				6EEC8A051B31A33C0066AC28 /* shankar.h */,
+				6EEC8A061B31A33C0066AC28 /* shankar.m */,
+				6EEC8A071B31A33C0066AC28 /* shankar.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1532,6 +1540,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* JabberClientViewController.xib in Resources */,
+				6EEC8A091B31A33C0066AC28 /* shankar.xib in Resources */,
 				BD62310C13E9626F00F26E0B /* SMLoginViewController.xib in Resources */,
 				BD62316E13E964BA00F26E0B /* SMChatViewController.xib in Resources */,
 				BD2179361418AFA100AA58F8 /* aqua.png in Resources */,
@@ -1612,6 +1621,7 @@
 				6E068A9E1B188F000075E7D6 /* XMPPTransports.m in Sources */,
 				6E068A5E1B188F000075E7D6 /* XMPPStream.m in Sources */,
 				6E068A9C1B188F000075E7D6 /* XMPPMessage+XEP_0085.m in Sources */,
+				6EEC8A081B31A33C0066AC28 /* shankar.m in Sources */,
 				6E068A7A1B188F000075E7D6 /* XMPPRoomOccupantCoreDataStorageObject.m in Sources */,
 				6E068A921B188F000075E7D6 /* NSXMLElement+XEP_0059.m in Sources */,
 				6E068A611B188F000075E7D6 /* XMPPFileTransfer.m in Sources */,
